@@ -1,0 +1,34 @@
+site_name: Dorime - EmDia
+
+repo_name: Dorime
+repo_url: 'https://github.com/OrcestraGamificacao/Dorime-Docs'
+
+copyright: 'Copyright &copy; 2020 Dorime'
+
+docs_dir: dorime_docs/
+site_dir: docs/
+
+theme:
+  name: 'material'
+  favicon: Images/logo.png
+  logo: Images/logo.png
+  features:
+    - navigation.tabs
+  palette:
+    - scheme: 'slate'
+      primary: deep purple
+      accent: deep purple
+
+nav:
+  - Início: index.md
+  - Documento de arquitetura:
+    - architecture.md
+  - Documento de visão:
+    - vision.md
+  - User Story Map:
+    - user_story_map.md
+  - Políticas:
+    - Commit: policies/commit.md
+    - Branch: policies/branch.md
+    - Pull Request: policies/pr.md
+    - Issue: policies/issue.md
