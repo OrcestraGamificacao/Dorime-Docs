@@ -32,3 +32,6 @@ nav:
     - Branch: policies/branch.md
     - Pull Request: policies/pr.md
     - Issue: policies/issue.md
+  - Reviews:
+    - Sprint 2: reviews/sprint2.md
+    - Sprint 3: reviews/sprint3.md
